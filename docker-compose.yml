@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  postgres:
+    image: jhojanlopez/inventory_system_db
+    container_name: inventory_system_db
+    restart: always
+    ports:
+      - 5432:5432
